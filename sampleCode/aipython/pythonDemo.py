@@ -80,9 +80,12 @@ def sqfun(x):
 
 # Try the following:
 # from pythonDemo import myplot, slin, sqfun
-# import matplotlib.pyplot as plt
-# myplot(0,100,1,slin,sqfun)
-# plt.legend(loc="best")
+import matplotlib.pyplot as plt
+myplot(0,100,1,slin,sqfun)
+plt.legend(loc="best")
+plt.show()
+
+
 # import math
 # plt.plot([41+40*math.cos(th/10) for th in range(50)],
 #          [100+100*math.sin(th/10) for th in range(50)])
